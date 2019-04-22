@@ -1,0 +1,60 @@
+/*FUENTES */
+
+@font-face{
+	font-family: "Grafier Regular Text";
+	src:url(../fonts/Grafier-RegularText.otf);
+}
+
+
+.header__panorama{
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	position: relative;
+}
+
+.header__panorama__copy{
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Grafier Regular Text';
+}
+
+.navegacion{
+	width: 90%;
+	position: absolute;
+	top: 5%;
+	left: 5%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.navegacion__logo, .navegacion__menu{
+	width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	cursor: pointer;
+}
+
+.navegacion__logo{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.navegacion__menu{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.navegacion__logo img, .navegacion__menu img{
+	width: 150px;
+	max-height: 50px;
+}
