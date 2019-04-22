@@ -54,7 +54,12 @@
 	align-items: center;
 }
 
-.navegacion__logo img, .navegacion__menu img{
+.navegacion__logo img{
 	width: 150px;
 	max-height: 50px;
+}
+
+.navegacion__menu img{
+	height: 50px;
+	
 }
