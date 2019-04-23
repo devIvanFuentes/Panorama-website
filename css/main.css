@@ -157,3 +157,70 @@ h1,h2,h3,h4,h5,h6{
 .owl-caraousel .animated { 
   animation-duration: 1000ms !important;
   animation-fill-mode: both !important; }
+
+
+
+  /*
+	********** RESPONSIVE ***********
+  */
+
+
+@media only screen and (max-width: 1024px){
+	.header__panorama__copy{
+		font-size: 45px;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	.header__panorama__copy{
+		font-size: 40px;
+	}
+
+	.navegacion__logo img{
+		width: 100px;
+		max-height: 40px;
+	}
+
+	.navegacion__menu img{
+		height: 30px;
+		
+	}
+
+	.menu__principal nav{
+		width: 50%;
+	}
+}
+
+@media only screen and (max-width: 480px){
+	.header__panorama__copy{
+		font-size: 28px;
+	}
+
+	.navegacion__logo img{
+		width: 100px;
+		max-height: 40px;
+	}
+
+	.navegacion__menu img{
+		height: 30px;
+		
+	}
+}
+
+@media only screen and (max-width: 320px){
+	
+	.header__panorama__copy{
+		font-size: 18px;
+	}
+	
+
+
+}
+
+
+
+
+
+
+
+
